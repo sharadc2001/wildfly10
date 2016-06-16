@@ -55,8 +55,10 @@ sudo docker run -it -p 8080:8080 -p 8443:8443 -p 9993:9993 -p 9990:9990 jboss/wi
 Wildfly Console URL
 ---------------------
 
-http://<hostIP>:8080/console
+http://hostIP:8080/console
 
 Keycloak URL
 ----------------
-https://<hostIP>:8443/auth
+https://hostIP:8443/auth
+
+This will now work in Cloud also.
